@@ -23,7 +23,7 @@ public class Main {
         System.out.println("El factorial de "+num+" es "+factorial);
         
         
-
+        sc.close();
 	}
 
 }
