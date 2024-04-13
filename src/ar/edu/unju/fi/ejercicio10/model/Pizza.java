@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.ejercicio10;
+package ar.edu.unju.fi.ejercicio10.model;
 
 public class Pizza {
 	private int diametro;
@@ -58,6 +58,15 @@ public class Pizza {
     }
 
     public void calcularArea() {
-        area = Math.PI * Math.pow(diametro / 2.0, 2);
+        area = Math.PI * Math.pow(diametro / 2, 2);
     }
+	@Override
+	public String toString() {
+		return "** Pizza " + " **\n" +
+	               "Diámetro = " + diametro + "\n" +
+	               "Ingredientes especiales = " + ingredientesEspeciales + "\n" +
+	               "Precio Pizza = " + precio + "$\n" +
+	               "Área de la pizza = " + area;
+	}
+    
 }
