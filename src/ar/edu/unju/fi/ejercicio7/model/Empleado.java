@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.ejercicio7;
+package ar.edu.unju.fi.ejercicio7.model;
 
 public class Empleado {
 	private String nombre;
@@ -47,7 +47,7 @@ public class Empleado {
 	
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre +
+		return "Nombre del empleado: " + nombre +
 	           "\nLegajo: " + legajo +
 	           "\nSalario: $" + salario;
 	}

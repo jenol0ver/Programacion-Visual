@@ -1,4 +1,4 @@
-package ar.edu.unju.fi.ejercicio6;
+package ar.edu.unju.fi.ejercicio6.model;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -86,7 +86,6 @@ public class Persona {
     }
 
     
-    @Override
     public String toString() {
         return "DNI: " + dni +
                "\nNombre: " + nombre +
