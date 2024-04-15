@@ -5,8 +5,8 @@ public class Empleado {
     private int legajo;
     private double salario;
 
-    private static final double SALARIO_MINIMO = 210000.00;
-    private static final double AUMENTO_POR_MERITOS = 20000.00;
+    private final double SALARIO_MINIMO = 210000.00;
+    private final double AUMENTO_POR_MERITOS = 20000.00;
     
 	public Empleado() {
 		// TODO Auto-generated constructor stub
@@ -36,10 +36,10 @@ public class Empleado {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	public static double getSalarioMinimo() {
+	public double getSalarioMinimo() {
 		return SALARIO_MINIMO;
 	}
-	public static double getAumentoPorMeritos() {
+	public double getAumentoPorMeritos() {
 		return AUMENTO_POR_MERITOS;
 	}
 	

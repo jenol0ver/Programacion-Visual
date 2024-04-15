@@ -5,10 +5,14 @@ public class Pizza {
     private double precio;
     private double area;
     private boolean ingredientesEspeciales;
-    private static final double ADICIONAL_20 = 500;
-    private static final double ADICIONAL_30 = 750;
-    private static final double ADICIONAL_40 = 1000;
+    private final double ADICIONAL_20 = 500;
+    private final double ADICIONAL_30 = 750;
+    private final double ADICIONAL_40 = 1000;  
     
+	public Pizza() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public int getDiametro() {
 		return diametro;
 	}
@@ -33,13 +37,13 @@ public class Pizza {
 	public void setIngredientesEspeciales(boolean ingredientesEspeciales) {
 		this.ingredientesEspeciales = ingredientesEspeciales;
 	}
-	public static double getAdicional20() {
+	public double getAdicional20() {
 		return ADICIONAL_20;
 	}
-	public static double getAdicional30() {
+	public double getAdicional30() {
 		return ADICIONAL_30;
 	}
-	public static double getAdicional40() {
+	public double getAdicional40() {
 		return ADICIONAL_40;
 	}
     
@@ -62,7 +66,7 @@ public class Pizza {
     }
 	@Override
 	public String toString() {
-		return "** Pizza " + " **\n" +
+		return "** Pizza " + " ** \n" +
 	               "Diámetro = " + diametro + "\n" +
 	               "Ingredientes especiales = " + ingredientesEspeciales + "\n" +
 	               "Precio Pizza = " + precio + "$\n" +

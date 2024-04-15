@@ -17,8 +17,8 @@ public class Main {
             pizza.setIngredientesEspeciales(scanner.nextBoolean());
             pizza.calcularPrecio();
             pizza.calcularArea();
-            System.out.println("Precio de la pizza: " + pizza.getPrecio());
-            System.out.println("Área de la pizza: " + pizza.getArea());
+            System.out.println(pizza.toString());
+            
         }
         scanner.close();
 

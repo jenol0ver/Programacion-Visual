@@ -11,13 +11,6 @@ public class Producto {
 		
 	}
 
-	public Producto(String nombre, String codigo, double precio, int desc, double precioconDescuento) {
-		this.nombre = nombre;
-		this.codigo = codigo;
-		this.precio = precio;
-		this.desc = desc;
-		this.precioconDescuento = precioconDescuento;
-	}
 
 	public String getNombre() {
 		return nombre;
@@ -62,16 +55,6 @@ public class Producto {
 
 	public double calcularDescuento() {
 		
-		/*if (desc < 0) {
-		
-		precioconDescuento= precio - (double)(precio * desc / 100);	
-		return precioconDescuento;
-		
-		}
-		else {
-			return precio;
-		}
-		*/
 		return precio - (precio * desc / 100);
 	}
 
