@@ -15,7 +15,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		List<Jugador> jugadores = new ArrayList<Jugador>();		
+		List<Jugador> jugadores = new ArrayList<Jugador>();	
+		
         int opcion = 0;
 
         do {
