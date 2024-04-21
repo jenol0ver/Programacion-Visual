@@ -19,8 +19,8 @@ public class Main {
 		List <Pais> paises = new ArrayList<Pais>();
 		List <DestinoTuristico> destinos = new ArrayList<DestinoTuristico>();
 		
-		paises.add(new Pais("dt01", "España"));
-        paises.add(new Pais("dt02", "Francia"));
+		paises.add(new Pais("dt01", "Mexico"));
+        paises.add(new Pais("dt02", "Estados Unidos"));
         paises.add(new Pais("dt03", "Argentina"));
         int opcion = 0;
         
