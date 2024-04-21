@@ -29,7 +29,10 @@ public class Main {
             indice = scanner.nextByte();
         } while (indice < 0 || indice > 4);
 
-        nombres[indice] = " ";
+        for (i = indice; i < nombres.length - 1; i++) {
+            nombres[i] = nombres[i + 1];
+        }
+        nombres[nombres.length - 1] = " ";
 
         System.out.println("\nArreglo después de eliminar el elemento:");
         i = 0;
